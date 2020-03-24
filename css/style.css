@@ -21,6 +21,7 @@ body {
 a {
   text-decoration: none;
   color: #b9b9b9;
+  display: inline-block;
 }
 ul {
   list-style: none;
@@ -30,30 +31,34 @@ ul {
 li {
   display: inline-block;
 }
+
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 10px;
+}
 
-  background-color: pink;
-}
-.title {
-  font-family: Bebas;
-}
 .header__inner {
-  margin: 0 auto;
   height: 78px;
-  align-items: center;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: Bebas;
 }
 .header__logo a {
   font-size: 36px;
   color: #f3af9d;
 }
+a:hover {
+  color: #e8603c;
+}
+
 .accent-color {
   color: #e8603c;
 }
 .header__menu li + li {
-  margin: 28px;
+  margin-left: 28px;
 }
