@@ -31,20 +31,17 @@ ul {
 li {
   display: inline-block;
 }
-
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 10px;
 }
-
 .header__inner {
   height: 78px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .title {
   font-family: Bebas;
 }
@@ -54,8 +51,8 @@ li {
 }
 a:hover {
   color: #e8603c;
+  transition: all 0.5s;
 }
-
 .accent-color {
   color: #e8603c;
 }
