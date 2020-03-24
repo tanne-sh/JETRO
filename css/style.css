@@ -1,4 +1,52 @@
-*{
-    box-sizing: border-box;
+@font-face {
+  font-family: "Bebas";
+  src: url(../fonts/Bebas.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(../fonts/HelveticaNeue.ttf);
+}
+* {
+  box-sizing: border-box;
 }
 *,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 10px;
+}
+.title {
+  font-family: Bebas;
+  src: url(../fonts/Bebas.ttf);
+}
+.header__logo {
+  font-size: 36px;
+}
+
+.header__inner {
+  margin: 0 auto;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
