@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Bebas";
   src: url(../fonts/Bebas.ttf);
-  font-weight: 400;
 }
 @font-face {
   font-family: "Helvetica Neue";
   src: url(../fonts/HelveticaNeue.ttf);
 }
-* {
+
+html {
   box-sizing: border-box;
 }
 *,
@@ -31,21 +31,29 @@ li {
   display: inline-block;
 }
 .container {
-  margin: 0 auto;
   max-width: 960px;
+  margin: 0 auto;
   padding: 0 10px;
+
+  background-color: pink;
 }
 .title {
   font-family: Bebas;
 }
-.header__logo {
-  font-size: 36px;
-}
-
 .header__inner {
   margin: 0 auto;
   height: 78px;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+.header__logo a {
+  font-size: 36px;
+  color: #f3af9d;
+}
+.accent-color {
+  color: #e8603c;
+}
+.header__menu li + li {
+  margin: 28px;
 }
