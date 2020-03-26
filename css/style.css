@@ -68,49 +68,78 @@ a:hover {
   height: 60px;
 }
 
-.slider__main {
-  background-image: url(../images/slider-1.jpg);
+.slider__item {
   min-height: 400px;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
-.slider__text {
-  max-width: 415px;
-  background-color: rgb(232, 102, 60, 0.8);
-  margin: 227px 0px 30px 35px;
+.item__text {
   position: absolute;
-}
-h3 {
-  font-size: 18px;
-  color: #fff;
-  padding: 25px 20px;
-  margin: 0;
-}
-.slider__text-subtitle {
   font-size: 12px;
   color: #fff;
-  padding: 0px 20px 25px;
+  width: 411px;
+  background-color: rgb(232, 102, 60, 0.8);
+  padding: 25px 20px;
+  left: 35px;
+  top: 245px;
+}
+.item__text__title {
+  font-size: 18px;
+  padding: 0 0 20px;
 }
 
-.nav-slider {
+/* Слайдер */
+.slick-slider {
 }
-.slide-1 {
-  background-image: url(../images/slider-1.jpg);
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
 }
-.slide-2 {
-  background-image: url(../images/slider-2.jpg);
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
 }
-.slide-3 {
-  background-image: url(../images/slider-1.jpg);
+/* Ограничивающая оболочка */
+.slick-list {
 }
-.slide-4 {
-  background-image: url(../images/slider-1.jpg);
+/* Лента слайдов */
+.slick-track {
 }
-.slide-5 {
-  background-image: url(../images/slider-1.jpg);
+/* Слайд */
+.slick-slide {
 }
-.slide-6 {
-  background-image: url(../images/slider-1.jpg);
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
 }
