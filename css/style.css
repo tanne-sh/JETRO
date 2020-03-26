@@ -93,3 +93,24 @@ h3 {
   color: #fff;
   padding: 0px 20px 25px;
 }
+
+.nav-slider {
+}
+.slide-1 {
+  background-image: url(../images/slider-1.jpg);
+}
+.slide-2 {
+  background-image: url(../images/slider-2.jpg);
+}
+.slide-3 {
+  background-image: url(../images/slider-1.jpg);
+}
+.slide-4 {
+  background-image: url(../images/slider-1.jpg);
+}
+.slide-5 {
+  background-image: url(../images/slider-1.jpg);
+}
+.slide-6 {
+  background-image: url(../images/slider-1.jpg);
+}
