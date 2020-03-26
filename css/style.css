@@ -76,7 +76,7 @@ a:hover {
   background-repeat: no-repeat;
   position: relative;
 }
-.slider__description {
+.slider__text {
   max-width: 415px;
   background-color: rgb(232, 102, 60, 0.8);
   margin: 227px 0px 30px 35px;
