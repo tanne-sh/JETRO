@@ -46,6 +46,7 @@ li {
 }
 .title {
   font-family: Bebas;
+  font-weight: 400;
 }
 .header__logo a {
   font-size: 36px;
@@ -67,7 +68,7 @@ a:hover {
   height: 60px;
 }
 
-.slider__1 {
+.slider__main {
   background-image: url(../images/slider-1.jpg);
   min-height: 400px;
   background-position: top center;
@@ -75,16 +76,17 @@ a:hover {
   background-repeat: no-repeat;
   position: relative;
 }
-.slider__text {
+.slider__description {
   max-width: 415px;
   background-color: rgb(232, 102, 60, 0.8);
-  margin: 245px 0px 30px 35px;
+  margin: 227px 0px 30px 35px;
   position: absolute;
 }
-.h3 {
+h3 {
   font-size: 18px;
   color: #fff;
-  padding: 25px 25px 20px;
+  padding: 25px 20px;
+  margin: 0;
 }
 .slider__text-subtitle {
   font-size: 12px;
