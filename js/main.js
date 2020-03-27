@@ -13,7 +13,7 @@ $(function() {
     asNavFor: ".slider__inner",
     dots: false,
     arrows: false,
-    centerMode: true,
+    centerMode: false,
     infinite: true,
     focusOnSelect: true
   });
