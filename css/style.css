@@ -96,6 +96,8 @@ a:hover {
 .slider-carousel__item {
   width: 140px !important;
   height: 120px;
+  margin-right: 20px;
+  overflow: hidden;
 }
 .slick-prev {
   background-image: url(../images/slider-arrow-prev.png);

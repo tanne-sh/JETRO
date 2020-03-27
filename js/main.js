@@ -3,8 +3,9 @@ $(function() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    fade: false,
-    infinite: true
+    fade: true,
+    infinite: true,
+    asNavFor: ".slider-carousel"
   });
 
   $(".slider-carousel").slick({
@@ -15,6 +16,7 @@ $(function() {
     arrows: false,
     centerMode: false,
     infinite: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    variableWidth: true
   });
 });
