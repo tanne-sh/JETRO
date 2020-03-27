@@ -97,14 +97,14 @@ a:hover {
   width: 140px !important;
   height: 120px;
 }
+
 .slick-prev {
+  background-image: url(../images/slider-arrow-prev.png);
   left: 25px;
   top: 185px;
   z-index: 1;
   height: 50px;
   width: 35px;
-  opacity: 0.9;
-  background-image: url(../images/slider-arrow-prev.png);
 }
 .slick-next {
   background-image: url(../images/slider-arrow-next.png);
@@ -113,5 +113,10 @@ a:hover {
   z-index: 1;
   height: 50px;
   width: 35px;
-  opacity: 0.9;
+}
+.slick-prev:before {
+  content: "";
+}
+.slick-next:before {
+  content: "";
 }
