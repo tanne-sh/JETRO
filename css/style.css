@@ -94,6 +94,10 @@ a:hover {
   margin-bottom: 17px;
 }
 
+.thumbs {
+  margin-bottom: 40px;
+}
+
 .thumbs__item {
   width: 140px;
   height: 120px;
@@ -128,4 +132,33 @@ a:hover {
 .slick-prev:before,
 .slick-next:before {
   display: none;
+}
+.article__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.article__item {
+  width: 270px;
+  max-height: 270px;
+}
+.article__items-title {
+  color: #e8663c;
+  font-size: 18px;
+  line-height: 24px;
+  width: 200px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
+.article__items-text {
+  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.article__btn a {
+  color: #fff;
+  background-color: #e8603c;
+  font-size: 12px;
+  padding: 10px 15px 15px 13px;
+  line-height: 24px;
 }
