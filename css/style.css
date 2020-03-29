@@ -102,26 +102,30 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* 
-.slick-prev {
-  background-image: url(../images/slider-arrow-prev.png);
-  left: 25px;
-  top: 185px;
+
+.slick-prev,
+.slick-next {
   z-index: 10;
   height: 50px;
   width: 35px;
+  top: 40%;
 }
 
-.slick-next {
-  background-image: url(../images/slider-arrow-next.png);
+.slick-prev,
+.slick-prev:hover,
+.slick-prev:focus {
+  background-image: url(../images/slider-arrow-prev.svg);
+  left: 25px;
+}
+
+.slick-next,
+.slick-next:hover,
+.slick-next:focus {
+  background-image: url(../images/slider-arrow-next.svg);
   right: 25px;
-  top: 185px;
-  z-index: 10;
-  height: 50px;
-  width: 35px;
 }
 
 .slick-prev:before,
 .slick-next:before {
   display: none;
-} */
+}
