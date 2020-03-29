@@ -5,12 +5,13 @@ $(function() {
     arrows: true,
     fade: true,
     infinite: true,
-    asNavFor: ".slider-carousel"
+    asNavFor: ".thumbs"
   });
 
-  $(".slider-carousel").slick({
+  $(".thumbs").slick({
     lazyLoad: "ondemand",
     slidesToShow: 6,
+    slidesToScroll: 6,
     asNavFor: ".slider__inner",
     dots: false,
     arrows: false,
