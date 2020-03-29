@@ -209,3 +209,33 @@ p {
   margin-left: -70px;
   margin-top: 5px;
 }
+
+.project__wrapper {
+  margin-bottom: 50px;
+}
+
+.project__title {
+  color: #e8663c;
+  margin-bottom: 30px;
+}
+
+.project__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__img {
+  max-height: 180px;
+  width: 220px;
+}
+.progect__links {
+  border: 1px solid #b9b9b9;
+  border-top: none;
+}
+.progect__links-title {
+  padding: 15px 0px 8px 15px;
+}
+.progect__links__date {
+  color: #e8663c;
+  padding-left: 15px;
+}
