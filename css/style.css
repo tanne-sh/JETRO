@@ -233,9 +233,10 @@ p {
   border-top: none;
 }
 .progect__links-title {
-  padding: 15px 0px 8px 15px;
+  padding: 15px 0px 6px 15px;
 }
 .progect__links__date {
   color: #e8663c;
-  padding-left: 15px;
+  padding: 0px 0px 15px 15px;
+  font-size: 11px;
 }
