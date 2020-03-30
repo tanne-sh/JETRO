@@ -97,6 +97,7 @@ a:hover {
   margin-bottom: 17px;
   position: relative;
 }
+
 .slider__inner::before,
 .slider__inner::after {
   content: "";
@@ -164,6 +165,7 @@ a:hover {
   width: 277px;
   max-height: 270px;
 }
+
 .article__items-title {
   color: #e8663c;
   font-size: 18px;
@@ -173,11 +175,13 @@ a:hover {
   margin-bottom: 40px;
   position: relative;
 }
+
 p {
   margin-bottom: 25px;
   font-size: 12px;
   line-height: 18px;
 }
+
 .article__btn a {
   color: #fff;
   background-color: #e8603c;
@@ -185,6 +189,7 @@ p {
   padding: 8px 20px;
   line-height: 24px;
 }
+
 .article__items-title.article-1::before {
   content: "";
   background-image: url(../images/article-icon-1.png);
@@ -194,6 +199,7 @@ p {
   margin-left: -70px;
   margin-top: 5px;
 }
+
 .article__items-title.article-2::before {
   content: "";
   background-image: url(../images/article-icon-2.png);
@@ -236,32 +242,34 @@ p {
   border: 1px solid #b9b9b9;
   border-top: none;
 }
+
 .progect__links-title {
   padding: 15px 0px 6px 15px;
 }
+
 .progect__links__date {
   color: #e8663c;
   padding: 0px 0px 15px 15px;
   font-size: 11px;
 }
 
-.footer {
-  background-color: #e8603c;
-}
-
 .footer__items {
+  padding: 40px;
+  background-color: #e8603c;
   display: flex;
   justify-content: space-between;
 }
+
 .footer__item {
   max-width: 260px;
 }
+
 .footer__item-title {
   font-size: 20px;
   color: #fff;
-  margin-top: 40px;
   margin-bottom: 30px;
 }
+
 .footer__item-content {
   color: #fff;
   font-size: 12px;
@@ -273,6 +281,7 @@ p {
   margin-bottom: 10px;
   color: #f1b09b;
 }
+
 .footer__item-content a {
   margin-top: 20px;
 }
@@ -281,6 +290,7 @@ p {
   font-family: Helvetica Light, sans-serif;
   color: #fff;
 }
+
 #email,
 #fax {
   font-family: Helvetica Neue, sans-serif;
@@ -290,15 +300,42 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 .footer__socialmedia {
   display: flex;
   flex-direction: row;
 }
+
 .link_socialmedia {
   width: 30px;
   height: 31px;
   display: inline-block;
 }
+
 .link_socialmedia {
   margin-right: 5px;
+}
+
+.footer__inner {
+  position: relative;
+}
+
+.footer__inner::before,
+.footer__inner::after {
+  content: "";
+  background-color: rgba(232, 96, 60, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.footer__inner::before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.footer__inner::after {
+  left: 100%;
+  margin-left: 10px;
+  top: 0;
 }
