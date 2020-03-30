@@ -6,6 +6,10 @@
   font-family: "Helvetica Neue";
   src: url(../fonts/HelveticaNeue.ttf);
 }
+@font-face {
+  font-family: "Helvetica Light";
+  src: url(../fonts/HelveticaLt.ttf);
+}
 
 html {
   box-sizing: border-box;
@@ -239,4 +243,23 @@ p {
   color: #e8663c;
   padding: 0px 0px 15px 15px;
   font-size: 11px;
+}
+
+.footer {
+  background-color: #e8603c;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item {
+  max-width: 260px;
+}
+.footer__item-title {
+  font-size: 20px;
+  color: #fff;
+}
+.footer__item-content {
+  color: #fff;
 }
