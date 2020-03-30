@@ -268,7 +268,7 @@ p {
   line-height: 14px;
 }
 
-.link__twitter a {
+.footer__item-content a {
   display: block;
   margin-bottom: 10px;
   color: #f1b09b;
@@ -280,4 +280,25 @@ p {
 .footer__item-content span {
   font-family: Helvetica Light, sans-serif;
   color: #fff;
+}
+#email,
+#fax {
+  font-family: Helvetica Neue, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.footer__socialmedia {
+  display: flex;
+  flex-direction: row;
+}
+.link_socialmedia {
+  width: 30px;
+  height: 31px;
+  display: inline-block;
+}
+.link_socialmedia {
+  margin-right: 5px;
 }
