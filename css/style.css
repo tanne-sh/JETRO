@@ -226,7 +226,8 @@ p {
 
 .project__title {
   color: #e8663c;
-  margin-bottom: 30px;
+  background-image: url(../images/project.jpg);
+  margin-bottom: 25px;
 }
 
 .project__items {
