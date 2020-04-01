@@ -65,8 +65,16 @@ a:hover {
   transition: all 0.5s;
 }
 
+.header__logo a {
+  max-width: 100%;
+}
+
 .header__menu li + li {
   margin-left: 28px;
+}
+
+.header__menu-btn {
+  display: none;
 }
 
 .slider__item {

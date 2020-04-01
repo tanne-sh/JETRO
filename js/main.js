@@ -20,4 +20,12 @@ $(function() {
     focusOnSelect: true,
     variableWidth: true
   });
+
+  $(".header__menu-btn").click(function(event) {
+    $(".header__menu ul").slideToggle();
+  });
+
+  $(".header__menu-btn").click(function(event) {
+    $(".header__menu-btn, .header__menu ul").toggleClass("active");
+  });
 });
