@@ -1,3 +1,21 @@
+@media (max-width: 1300px){
+  .slider__inner::before{
+    display: none;
+   }
+   .slider__inner::after {
+     display: none;
+}
+
+@media (max-width: 900px) {
+  .slick-prev,
+  .slick-next {
+    display: none;
+  }
+  
+    
+}
+
+
 @media (max-width: 560px) {
   .header:before {
     content: "";
