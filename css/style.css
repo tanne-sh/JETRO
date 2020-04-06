@@ -246,9 +246,10 @@ p {
 
 .project__img {
   max-height: 180px;
-  width: 220px;
+  max-width: 220px;
 }
 .progect__links {
+  max-width: 220px;
   border: 1px solid #b9b9b9;
   border-top: none;
 }

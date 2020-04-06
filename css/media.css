@@ -4,6 +4,20 @@
     display: none;
   }
 }
+@media (max-width: 940px) {
+  .project__items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .project__item {
+    width: 40%;
+    margin: 20px 15px;
+  }
+
+  .project__item a {
+    display: block;
+  }
+}
 
 @media (max-width: 900px) {
   .item__text {
@@ -172,5 +186,9 @@
   }
   .slider__inner {
     margin-bottom: 50px;
+  }
+
+  .project__item {
+    width: 100%;
   }
 }
