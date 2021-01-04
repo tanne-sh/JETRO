@@ -1,5 +1,4 @@
-Link to the project
-https://tanne-sh.github.io/JETRO/.
+# [JETRO](https://tanne-sh.github.io/JETRO/.)
 
 
 
